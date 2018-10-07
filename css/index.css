@@ -64,8 +64,8 @@ a {
   z-index: 2;
   left: 0;
   top: 0;
-  width: calc(100% - 100px);
-  padding: 0 50px;
+  width: calc(100% - 140px);
+  padding: 0 70px;
 }
 .top .top-scene .top-tit > a {
   vertical-align: top;
@@ -109,7 +109,7 @@ a {
 }
 .top .top-scene .top-tit > ul .li2 .login {
   color: #55b6da;
-  margin-left: 300px;
+  margin-left: 200px;
 }
 .top .top-scene .top-tit > ul .li2 .login:hover {
   color: white;
