@@ -62,8 +62,10 @@ a {
 .top .top-scene .top-tit {
   position: absolute;
   z-index: 2;
-  left: 5%;
-  width: 1449px;
+  left: 0;
+  top: 0;
+  width: calc(100% - 100px);
+  padding: 0 50px;
 }
 .top .top-scene .top-tit > a {
   vertical-align: top;

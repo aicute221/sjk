@@ -19,6 +19,7 @@
   left: 0;
   display: none;
   box-shadow: 0 1px 12px rgba(85, 182, 218, 0.2);
+  z-index: 3;
 }
 .class-top .class-com {
   background-color: white;
