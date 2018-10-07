@@ -1,0 +1,381 @@
+.class-top {
+  background: url(../pic/bg.jpg) center repeat;
+  background-size: 60px auto;
+  padding: 30px 0;
+  letter-spacing: 0.3px;
+}
+.class-top .class-class {
+  padding: 34px 60px;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 790px;
+}
+.class-top .top-float {
+  position: fixed;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px 0;
+  top: 0;
+  left: 0;
+  display: none;
+  box-shadow: 0 1px 12px rgba(85, 182, 218, 0.2);
+}
+.class-top .class-com {
+  background-color: white;
+}
+.class-top .class-com .c-class-top-com {
+  color: black;
+}
+.class-top .class-com .c-class-top-com .c-class-tit-1 {
+  font-size: 26px;
+}
+.class-top .class-com .c-class-top-com .c-class-tit-2 {
+  font-size: 18px;
+}
+.class-top .class-com .c-class-top-1 {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #eaeff3;
+}
+.class-top .class-com .c-class-top-2 {
+  width: 750px;
+  margin: 0 auto;
+}
+.class-top .class-com .c-class-bottom-com .one {
+  display: inline-block;
+  margin-right: 20px;
+  color: #8295a3;
+}
+.class-top .class-com .c-class-bottom-com .one img {
+  height: 15px;
+  width: 15px;
+  vertical-align: middle;
+}
+.class-top .class-com .c-class-bottom-com .one-2 {
+  color: #dd5e6e;
+}
+.class-top .class-com .c-class-bottom-com button {
+  color: #000;
+  background-color: #fcd716;
+  font-size: 16px;
+  padding: 8px 30px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+.class-top .class-com .c-class-bottom-com .button-1 {
+  margin-top: -7px;
+  float: right;
+}
+.class-top .class-com .c-class-bottom-com .button-2 {
+  position: absolute;
+  top: 20px;
+  left: 950px;
+}
+.class-top .class-com .c-class-bottom-1 {
+  padding-top: 24px;
+}
+.class-top .class-com .c-class-bottom-2 {
+  height: 18px;
+  padding-top: 10px;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.middle-tit {
+  color: #55b6da;
+  font-size: 24px;
+  padding: 33px 0 20px 0;
+}
+
+.class-middle {
+  background-color: #fff;
+  padding: 0 0 33px 0;
+  font-size: 14px;
+  color: #1b2026;
+  letter-spacing: 0.3px;
+}
+.class-middle .about-teacher {
+  width: 750px;
+  margin: 0 auto 20px auto;
+}
+.class-middle .about-teacher .about-teacher-detail {
+  background-color: #f7f9fb;
+  border: solid 1px #eaeff3;
+  padding: 20px 0 0 30px;
+}
+.class-middle .about-teacher .about-teacher-detail img {
+  height: 140px;
+  width: 140px;
+}
+.class-middle .about-teacher .about-teacher-detail > div {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 25px;
+}
+.class-middle .about-teacher .about-teacher-detail > div > div {
+  padding-bottom: 20px;
+}
+.class-middle .about-teacher .about-teacher-detail > div > div .teacher-name {
+  display: inline-block;
+  color: #000;
+  font-size: 18px;
+}
+.class-middle .about-teacher .about-teacher-detail > div > div .middle-teacher-job {
+  display: inline-block;
+  padding-left: 15px;
+}
+.class-middle .about-teacher .about-teacher-detail > div p {
+  width: 480px;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+
+.class-course {
+  width: 750px;
+  margin: 0 auto 40px auto;
+}
+.class-course .course-info {
+  line-height: 32px;
+}
+.class-course .course-info > p {
+  width: 750px;
+  font-size: 15px;
+}
+.class-course .course-info > p img {
+  width: 360px;
+  height: 202.5px;
+  margin: 10px 5px;
+}
+.class-course .course-info > h2 {
+  font-size: 16px;
+  border-left: 4px solid #fde01f;
+  padding-left: 10px;
+  margin: 28px 0;
+}
+
+.core {
+  width: 750px;
+  margin: 0 auto 0 auto;
+}
+.core ul {
+  border: solid 1px #f2f5f7;
+  padding: 40px 0 40px 65px;
+  box-shadow: 0 0 10px rgba(85, 182, 218, 0.2);
+}
+.core ul li {
+  font-size: 16px;
+  margin: 10px 0;
+  line-height: 32px;
+}
+.core ul li img {
+  height: 17px;
+  width: 17px;
+  padding-right: 20px;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+.syllabus {
+  width: 750px;
+  margin: 0 auto 50px auto;
+}
+.syllabus > ul {
+  background-color: #fafbfd;
+  border: solid 1px #eaeff3;
+  padding-left: 73px;
+  padding-top: 40px;
+}
+.syllabus > ul li {
+  border-left: solid 1px #eaeff3;
+  position: relative;
+}
+.syllabus > ul li:last-child {
+  border-left: solid 1px #fafbfd;
+}
+.syllabus > ul li img {
+  width: 17px;
+  height: 17px;
+  vertical-align: top;
+  position: relative;
+  left: -8px;
+}
+.syllabus > ul li > div {
+  display: inline-block;
+  font-size: 18px;
+  padding-left: 20px;
+  margin-top: -5px;
+}
+.syllabus > ul li > div span {
+  line-height: 18px;
+}
+.syllabus > ul li > div p {
+  padding-top: 15px;
+  color: #989898;
+  font-size: 15px;
+  line-height: 32px;
+  padding-bottom: 36px;
+}
+.syllabus > ul > p {
+  padding-top: 15px;
+  color: #989898;
+  font-size: 15px;
+  line-height: 32px;
+  padding-bottom: 36px;
+  padding-left: 40px;
+}
+
+.class-question {
+  background-color: #fafbfd;
+  border: solid 1px #eaeff3;
+  padding-left: 30px;
+  line-height: 24px;
+  width: 750px;
+  margin: 0 auto 20px auto;
+}
+.class-question .question-detail {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.class-question .question-detail img {
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+  margin-top: 5px;
+  padding-right: 8px;
+  display: inline-block;
+}
+.class-question .question-detail span {
+  width: 294px;
+  display: inline-block;
+}
+.class-question .question-detail .detail-ques span {
+  margin-bottom: 6px;
+}
+
+@media screen and (max-width: 700px) {
+  .class-top .class-class {
+    font-size: 15px;
+    width: 100%;
+    padding: 34px 0 14px 0;
+  }
+  .class-top .top-float {
+    display: none;
+  }
+  .class-top .class-com .c-class-top-com .c-class-tit-1 {
+    font-size: 24px;
+    width: 360px;
+    margin: 0 auto;
+  }
+  .class-top .class-com .c-class-bottom-com .one {
+    display: block;
+    width: 360px;
+    margin: 0 auto 10px auto;
+  }
+  .class-top .class-com .c-class-bottom-1 {
+    padding-top: 20px;
+  }
+  .class-top .class-com .c-class-bottom-com .button-1 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 14px 0;
+    font-size: 18px;
+  }
+
+  .middle-tit {
+    width: 100%;
+    font-size: 24px;
+    padding: 30px 0 20px 18px;
+  }
+
+  .class-middle .about-teacher {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+  .class-middle .about-teacher .middle-tit {
+    font-size: 21px;
+    padding-left: 10px;
+  }
+  .class-middle .about-teacher .about-teacher-detail {
+    width: 92%;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+  .class-middle .about-teacher .about-teacher-detail img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .class-middle .about-teacher .about-teacher-detail > div {
+    margin-left: 16px;
+  }
+  .class-middle .about-teacher .about-teacher-detail > div > div .teacher-name {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 6px;
+  }
+  .class-middle .about-teacher .about-teacher-detail > div > div .middle-teacher-job {
+    display: block;
+    padding-left: 0;
+  }
+  .class-middle .about-teacher .about-teacher-detail > div p {
+    width: 345px;
+  }
+
+  .class-course {
+    width: 100%;
+  }
+  .class-course .course-info {
+    width: 92%;
+    margin: 0 auto;
+  }
+  .class-course .course-info > p {
+    width: 100%;
+  }
+
+  .core {
+    width: 100%;
+  }
+  .core ul {
+    padding: 40px 0 0 20px;
+  }
+  .core ul li {
+    font-size: 15px;
+  }
+  .core ul li img {
+    padding-right: 16px;
+  }
+
+  .syllabus {
+    width: 100%;
+  }
+  .syllabus > ul {
+    padding-left: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .syllabus > ul li {
+    width: 92%;
+    margin-left: 6%;
+  }
+  .syllabus > ul li > div {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  .syllabus > ul li > div span {
+    font-size: 16px;
+  }
+  .syllabus > ul li > div p {
+    font-size: 14px;
+  }
+
+  .class-question {
+    width: 100%;
+  }
+  .class-question .middle-tit {
+    padding-left: 0;
+  }
+}
+
+/*# sourceMappingURL=class.css.map */

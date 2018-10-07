@@ -1,0 +1,206 @@
+.top{
+  width: 1449px;
+  .top-scene{
+    height: 66px;
+    .top-tit{
+      >ul{
+        .li1{
+          font-size: 15px;
+          a{
+            color: #3F4764;
+            font-weight: 500;
+            &:hover{
+              color: #3F4764;
+              border-bottom: solid 5px #fde01f;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.free-tit{
+  background: url(../pic/free-tit-bg.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.3px;
+  padding-bottom: 35px;
+  h1{
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 35px;
+  }
+  h2{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 10px;
+  }
+}
+
+.free-middle{
+  background: url(../pic/bg.jpg) center repeat;
+  background-size: 60px auto;
+  padding: 40px 0;
+  .free-class{
+    width: 910px;
+    margin: 0 auto 20px auto;
+    display: block;
+    background-color: white;
+    padding: 34px 60px;
+    font-size: 18px;
+    box-shadow: 0 2px 30px rgba(85,182,218,0.2);
+    .class-top{
+      color: black;
+      height: 40px;
+      padding-bottom: 33px;
+      .class-tit{
+        font-size: 24px;
+        float: left;
+      }
+      .people{
+        float: right;
+        img{
+          height: 20px;
+          width: 23px;
+          vertical-align: middle;
+        }
+      }
+    }
+    .class-bottom{
+      height: 40px;
+      .teacher{
+        float: left;
+        font-weight: 300;
+        color: #1b2026;
+        span{
+          img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            vertical-align: middle;
+          }
+        }
+        .teacher-mentor{
+          padding-left: 10px;
+        }
+        .teacher-job{
+          padding-left: 20px;
+        }
+      }
+      button{
+        float: right;
+        color: white;
+        background-color: #55b6da;
+        font-size: 16px;
+        padding: 7px 44px;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  .more-class{
+    text-align: center;
+    font-weight: 300;
+    color: #b5bec7;
+  }
+}
+
+@media screen and(max-width: 700px){
+  .free-tit{
+    h1{
+      font-size: 20px;
+      letter-spacing: 3px;
+    }
+    h2{
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  .free-middle{
+    width: 414px;
+    .free-class{
+      width: 388px;
+      font-size: 13px;
+      padding: 20px 12px;
+      .class-top{
+        .class-tit{
+          font-size: 15px;
+        }
+        .people{
+          img{
+            display: none;
+          }
+        }
+      }
+      .class-bottom{
+        .teacher{
+          width: 238px;
+          height: 18px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          span{
+            img{
+              display: none;
+            }
+          }
+        }
+        button{
+          float: right;
+          font-size: 13px;
+          padding: 8px 25px;
+        }
+      }
+    }
+  }
+
+
+  .bottom{
+    .img{
+      width: 350px;
+    }
+    .bottom-content{
+      width: 350px;
+      margin: 0 auto;
+      >ul{
+        display: none;
+
+      }
+      .about{
+        width: 350px;
+        margin: 0 auto;
+        ul{
+          width: 350px;
+          margin: 0 auto;
+          li{
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .bottom-last{
+      width: 350px;
+      position: relative;
+      font-size: 14px;
+      span{
+        padding-right: 1px;
+        display: inline-block;
+        margin-bottom: 20px;
+      }
+      .jing{
+        position: absolute;
+        top: 20px;
+        right: 0;
+      }
+    }
+  }
+  .consult{
+    display: none;
+  }
+  .consult2{
+    display: block;
+  }
+}
