@@ -20,16 +20,18 @@
         <div class="top-scene">
             <div class="top-tit">
                 <a href="index.html"></a>
-                <ul>
-                    <li class="li1 li"><a href="index.html">首页</a></li>
-                    <li class="li1 li"><a href="free.html">限免课程</a></li>
-                    <li class="li1 li"><a href="sjk">文章</a></li>
-                    <li class="li1 li"><a href="sjk">3.3计划</a></li>
-                    <li class="li1 li"><a href="sjk">企业内训</a></li>
+                <div class="phone">
+                    <ul>
+                        <li class="li1 li"><a href="index.html">首页</a></li>
+                        <li class="li1 li"><a href="free.html">限免课程</a></li>
+                        <li class="li1 li"><a href="sjk">文章</a></li>
+                        <li class="li1 li"><a href="sjk">3.3计划</a></li>
+                        <li class="li1 li"><a href="sjk">企业内训</a></li>
 
-                    <li class="li2 li"><a href="xx" class="login">登录</a></li>
-                    <li class="li2 li"><a href="xx" class="register">免费注册</a></li>
-                </ul>
+                        <li class="li2 li"><a href="xx" class="login">登录</a></li>
+                        <li class="li2 li"><a href="xx" class="register">免费注册</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -292,12 +294,15 @@
         // 监听 scroll 事件，使用 scrollTop 方法获取元素滚动的高度
         $(window).scroll(function(){
             var height = $(window).scrollTop();
-            if(height>=300){
+            if(height>=300 && screenLeft>700){
                 $(".top-float").show();
             }else{
                 $(".top-float").hide();
             }
-        })
+        });
+        $(".phone").click(function(){
+            $(".phone ul").toggle()
+        });
     })
 </script>
 </html>

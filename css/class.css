@@ -277,6 +277,9 @@
   .class-top .class-com .c-class-bottom-1 {
     padding-top: 20px;
   }
+  .class-top .class-com .c-class-bottom-com button {
+    padding: 8px 0;
+  }
   .class-top .class-com .c-class-bottom-com .button-1 {
     position: fixed;
     bottom: 0;
@@ -286,7 +289,7 @@
   }
 
   .middle-tit {
-    width: 100%;
+    width: calc(100% - 18px);
     font-size: 24px;
     padding: 30px 0 20px 18px;
   }
@@ -372,7 +375,7 @@
   }
 
   .class-question {
-    width: 100%;
+    width: calc(100% - 30px);
   }
   .class-question .middle-tit {
     padding-left: 0;
