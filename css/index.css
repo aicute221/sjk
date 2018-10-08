@@ -52,7 +52,7 @@ a {
 }
 
 .top {
-  width: 1300px;
+  width: 100%;
 }
 .top .top-scene {
   height: 66px;
@@ -64,7 +64,7 @@ a {
   z-index: 2;
   left: 0;
   top: 0;
-  width: 1300px;
+  width: calc(100% - 140px);
   padding: 0 70px;
 }
 .top .top-scene .top-tit > a {
@@ -115,7 +115,7 @@ a {
 }
 .top .top-scene .top-tit > div > ul .li2 .login {
   color: #55b6da;
-  margin-left: 300px;
+  margin-left: 200px;
 }
 .top .top-scene .top-tit > div > ul .li2 .login:hover {
   color: white;

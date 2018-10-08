@@ -47,7 +47,7 @@ a{
 }
 
 .top{
-  width: 1300px;
+  width: 100%;
   .top-scene{
     height: 66px;
     width: 100%;
@@ -57,8 +57,7 @@ a{
       z-index: 2;
       left: 0;
       top: 0;
-      //width: calc(100% - 140px);
-      width: 1300px;
+      width: calc(100% - 140px);
       padding: 0 70px;
       >a{
         vertical-align: top;
@@ -107,7 +106,7 @@ a{
             }
             .login{
               color: #55b6da;
-              margin-left: 300px;
+              margin-left: 200px;
               &:hover{
                 color: white;
                 background-color: #55b6da;
