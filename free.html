@@ -154,7 +154,9 @@
 <script>
     $(document).ready(function(){
      $(".phone").click(function(){
-         $(".phone ul").toggle()
+         if(screen.width < 700){
+             $(".phone ul").toggle()
+         }
      })
     })
 </script>

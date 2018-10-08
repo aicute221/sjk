@@ -78,8 +78,10 @@ a {
 }
 .top .top-scene .top-tit > div {
   display: inline-block;
+  width: calc(100% - 140px);
 }
 .top .top-scene .top-tit > div > ul {
+  width: 100%;
   display: inline-block;
   margin-top: 7px;
   margin-left: 25px;
@@ -103,6 +105,9 @@ a {
   color: #3F4764;
   border-bottom: solid 5px #fde01f;
 }
+.top .top-scene .top-tit > div > ul .li2 {
+  float: right;
+}
 .top .top-scene .top-tit > div > ul .li2 a {
   display: inline-block;
   width: 90px;
@@ -115,7 +120,6 @@ a {
 }
 .top .top-scene .top-tit > div > ul .li2 .login {
   color: #55b6da;
-  margin-left: 200px;
 }
 .top .top-scene .top-tit > div > ul .li2 .login:hover {
   color: white;
@@ -812,6 +816,7 @@ a {
   .top .top-scene .top-tit > div {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlklEQVRYR+2Wuw2EMBBEPRVAE5iUBOqATq8OSC49uwmoYBCIQ+ITL0geN/BGz9rZhXv44WG+U4DdQFHUFekyiy8B3BTj8F1Ye4DSN7SA/xm/0K/skwHmFiEAjBcDFuA7hqZABmTgPQa8bz4gTaqYwBhC3x2acAtg0oRbgPYQQE0oAzIgA0kdpSSnEIe1dXWUvmcdJzuGM02BOiGFHOLbAAAAAElFTkSuQmCC") no-repeat;
     background-size: 32px;
+    display: inline-block;
     width: 32px;
     height: 32px;
     position: relative;
@@ -826,6 +831,7 @@ a {
     margin-top: 60px;
     margin-left: 1px;
     position: absolute;
+    width: auto;
     right: 0;
   }
   .top .top-scene .top-tit > div > ul .li {
@@ -836,6 +842,7 @@ a {
   }
   .top .top-scene .top-tit > div > ul .li2 {
     font-size: 14px;
+    float: none;
   }
   .top .top-scene .top-tit > div > ul .li2 a {
     display: block;

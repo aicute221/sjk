@@ -446,8 +446,11 @@
 //            $(".one").hide();
 //            $(".one-3").show();
 //        });
+
         $(".phone").click(function(){
-            $(".phone ul").toggle()
+            if(screen.width < 700){
+                $(".phone ul").toggle()
+            }
         });
 
         function setCurrentPic(j){

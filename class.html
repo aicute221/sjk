@@ -294,14 +294,16 @@
         // 监听 scroll 事件，使用 scrollTop 方法获取元素滚动的高度
         $(window).scroll(function(){
             var height = $(window).scrollTop();
-            if(height>=300 && screenLeft>700){
+            if(height>=300 && screen.width>700){
                 $(".top-float").show();
             }else{
                 $(".top-float").hide();
             }
         });
         $(".phone").click(function(){
-            $(".phone ul").toggle()
+            if(screen.width < 700){
+                $(".phone ul").toggle()
+            }
         });
     })
 </script>
