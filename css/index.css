@@ -753,6 +753,10 @@ a {
   vertical-align: middle;
 }
 
+.count-num-com {
+  font-size: 12px;
+}
+
 .p-com {
   font-size: 14px;
   line-height: 23px;
@@ -886,6 +890,11 @@ a {
   .top-middle {
     height: 249px;
   }
+
+  .com-title-2 {
+    font-size: 21px;
+  }
+
   .middle {
     width: 100%;
   }
@@ -932,19 +941,67 @@ a {
   .middle .course-suit-detail > a .suit-middle h1 {
     font-size: 21px;
   }
-  .middle .course-popular-detail {
+  .middle .course-popular .course-popular-detail {
     width: 350px;
   }
-  .middle .course-popular-detail > a {
-    display: block;
-    margin: 20px auto;
+  .middle .course-popular .course-popular-detail > a {
+    display: inline-block;
+    margin: 8px 10px;
+    width: 150px;
+    height: 223px;
   }
-  .middle .course-free-detail {
+  .middle .course-popular .course-popular-detail > a .popular-bg {
+    width: 100%;
+    height: 90px;
+  }
+  .middle .course-popular .course-popular-detail > a .popular-bg img {
+    width: 100%;
+    height: 107px;
+  }
+  .middle .course-popular .course-popular-detail > a h3 {
+    padding: 10px 15px 0 10px;
+    font-size: 13px;
+  }
+  .middle .course-popular .course-popular-detail > a .popular-middle {
+    padding-left: 10px;
+    bottom: 10px;
+  }
+  .middle .course-popular .course-popular-detail > a .popular-middle .time-num {
+    font-size: 12px;
+  }
+  .middle .course-popular .course-popular-detail > a .popular-middle .left-num {
+    width: 86px;
+    font-size: 12px;
+    left: 73px;
+    padding: 16px 0;
+    border: solid 1px transparent;
+  }
+  .middle .course-free .course-free-detail {
     width: 350px;
   }
-  .middle .course-free-detail > a {
-    display: block;
-    margin: 20px auto;
+  .middle .course-free .course-free-detail > a {
+    display: inline-block;
+    margin: 10px 10px;
+    width: 150px;
+    height: 223px;
+  }
+  .middle .course-free .course-free-detail > a .free-bg {
+    width: 100%;
+    height: 104px;
+  }
+  .middle .course-free .course-free-detail > a .free-bg img {
+    width: 100%;
+    height: 105px;
+    margin-top: 0;
+  }
+  .middle .course-free .course-free-detail > a h3 {
+    padding: 14px 15px 0 10px;
+    font-size: 13px;
+    height: 46px;
+  }
+  .middle .course-free .course-free-detail > a .count-num-3 {
+    padding-left: 10px;
+    bottom: 8px;
   }
 
   .culture .students .student-detail {
@@ -953,9 +1010,19 @@ a {
   }
   .culture .students .student-detail > a {
     display: inline-block;
-    margin: 20px 25px;
+    margin: 10px 25px;
     width: 135px;
     position: relative;
+  }
+  .culture .students .student-detail > a img {
+    width: 60px;
+    height: 60px;
+  }
+  .culture .students .student-detail > a h4 {
+    font-size: 14px;
+  }
+  .culture .students .student-detail > a h5 {
+    font-size: 14px;
   }
   .culture .students .student-detail > a p {
     display: none;
@@ -963,32 +1030,38 @@ a {
   }
   .culture .students .student-detail > a .look-all {
     display: block;
+    font-size: 12px;
+    width: 105px;
   }
   .culture .students .student-detail .line {
     display: none;
   }
   .culture .company .company-detail {
-    width: 350px;
+    width: 336px;
   }
   .culture .company .company-detail .company-pic-big {
     display: none;
   }
   .culture .company .company-detail .company-intro {
-    width: 330px;
+    width: calc(100% - 54px);
     display: block;
     margin: 20px auto 0 auto;
     background-color: white;
+    padding: 25px;
   }
   .culture .company .company-detail .company-intro > img {
     display: block;
     margin: 0 auto;
   }
   .culture .company .company-detail .company-intro h3 {
-    width: 250px;
+    width: 230px;
     margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
   }
   .culture .company .company-detail .company-intro p {
-    width: 330px;
+    width: 284px;
+    font-size: 13px;
   }
 
   .company-other ul {
@@ -996,6 +1069,10 @@ a {
   }
   .company-other ul li {
     margin: 0 2px 20px 0;
+  }
+
+  .question a {
+    font-size: 19px;
   }
 
   .bottom .img {

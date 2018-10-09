@@ -757,6 +757,9 @@ a{
     }
   }
 }
+.count-num-com{
+  font-size: 12px;
+}
 .p-com{
   font-size: 14px;
   line-height: 23px;
@@ -894,44 +897,10 @@ a{
   }
   .top-middle{
     height: 249px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .top-middle-scene{
-      .top-scroll{
-        li{
-        }
-        .one-1{
-        }
-        .one-2{
-        }
-        .one-3{
-        }
-      }
-      .dotted{
-        span{
-        }
-      }
-    }
   }
-
-
+  .com-title-2{
+    font-size: 21px;
+  }
 
   .middle{
     width: 100%;
@@ -993,18 +962,71 @@ a{
         }
       }
     }
-    .course-popular-detail{
-      width: 350px;
-      >a{
-        display: block;
-        margin: 20px auto;
+    .course-popular {
+      .course-popular-detail {
+        width: 350px;
+        >a{
+          display: inline-block;
+          margin: 8px 10px;
+          width: 150px;
+          height: 223px;
+          .popular-bg{
+            width: 100%;
+            height: 90px;
+            img{
+              width: 100%;
+              height: 107px;
+            }
+          }
+          h3{
+            padding: 10px 15px 0 10px;
+            font-size: 13px;
+            //height: 46px;
+          }
+          .popular-middle{
+            padding-left: 10px;
+            bottom: 10px;
+            .time-num{
+              font-size: 12px;
+            }
+            .left-num{
+              width: 86px;
+              font-size: 12px;
+              left: 73px;
+              padding: 16px 0;
+              border: solid 1px transparent;
+            }
+          }
+        }
       }
     }
-    .course-free-detail{
-      width: 350px;
-      >a{
-        display: block;
-        margin: 20px auto;
+    .course-free{
+      .course-free-detail{
+        width: 350px;
+        >a{
+          display: inline-block;
+          margin: 10px 10px;
+          width: 150px;
+          height: 223px;
+          .free-bg{
+            width: 100%;
+            height: 104px;
+            img{
+              width: 100%;
+              height: 105px;
+              margin-top: 0;
+            }
+          }
+          h3{
+            padding: 14px 15px 0 10px;
+            font-size: 13px;
+            height: 46px;
+          }
+          .count-num-3{
+            padding-left: 10px;
+            bottom: 8px;
+          }
+        }
       }
     }
   }
@@ -1015,15 +1037,27 @@ a{
         margin: 0 auto;
         >a{
           display: inline-block;
-          margin: 20px 25px;
+          margin: 10px 25px;
           width: 135px;
           position: relative;
+          img{
+            width: 60px;
+            height: 60px;
+          }
+          h4{
+            font-size: 14px;
+          }
+          h5{
+            font-size: 14px;
+          }
           p{
             display: none;
             position: absolute;
           }
           .look-all{
             display: block;
+            font-size: 12px;
+            width: 105px;
           }
         }
         .line{
@@ -1033,26 +1067,29 @@ a{
     }
     .company{
       .company-detail{
-        width: 350px;
+        width: 336px;
         .company-pic-big{
           display: none;
         }
         .company-intro{
-          width: 330px;
+          width: calc(100% - 54px);
           display: block;
           margin: 20px auto 0 auto;
           background-color: white;
-
+          padding: 25px;
           >img{
             display: block;
             margin: 0 auto;
           }
           h3{
-            width: 250px;
+            width: 230px;
             margin: 0 auto;
+            font-size: 16px;
+            text-align: center;
           }
           p{
-            width: 330px;
+            width: 284px;
+            font-size: 13px;
           }
         }
       }
@@ -1067,6 +1104,11 @@ a{
     }
   }
 
+  .question{
+    a{
+      font-size: 19px;
+    }
+  }
   .bottom{
     .img{
       width: 380px;
