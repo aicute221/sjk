@@ -542,6 +542,7 @@ a {
 .culture .students .student-detail {
   padding-bottom: 50px;
   padding-top: 25px;
+  height: 330px;
   width: 1050px;
   margin: 0 auto;
 }
